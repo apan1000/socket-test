@@ -1,4 +1,4 @@
-// Fredrik Berglund 20166029
+// Fredrik Berglund 2016
 
 #include <stdio.h>
 #include <stdlib.h>
