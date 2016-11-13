@@ -223,7 +223,8 @@ int main(int argc , const char *argv[]) {
             exit(EXIT_FAILURE);
         }
     } else {
-        fprintf(stderr, "usage: %s –h xxx.xxx.xxx.xxx –p xxxx –m 0/1/2\n", argv[0]);
+        fprintf(stderr, "usage: %s –h xxx.xxx.xxx.xxx –p xxxx –m 0/1/2\n
+        	Where -h is host address, -p is port# and -m is protocol.\n", argv[0]);
         exit(EXIT_FAILURE);
     }
 

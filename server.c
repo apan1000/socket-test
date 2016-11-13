@@ -264,7 +264,7 @@ int main(int argc, const char *argv[]) {
     if(argc == 3 && strcmp(argv[1], "-p") == 0) {
         strcpy(port, argv[2]);
     } else {
-        fprintf(stderr, "usage: %s –p xxxx\n", argv[0]);
+        fprintf(stderr, "usage: %s –p xxxx\nWhere -p is port#\n", argv[0]);
         exit(EXIT_FAILURE);
     }
 
